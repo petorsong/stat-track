@@ -1,0 +1,27 @@
+{
+  "name": "typescript-orm-postgres",
+  "version": "1.0.0",
+  "description": "Rest API using Node.js, TypeScript ORM Sequelize, Express, Postgres",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "node ./build/server.js",
+    "start": "tsc && npm run dev"
+  },
+  "author": "bezkoder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
