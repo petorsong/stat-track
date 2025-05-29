@@ -1,3 +1,5 @@
+.DS_Store
 .env
-server/build/
-server/node_modules/
+
+/server/build/
+/server/node_modules/
